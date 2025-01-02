@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@effect/platform':
-        specifier: ^0.72.0
-        version: 0.72.0(effect@3.12.0)
       '@typed/lazy-ref':
         specifier: ^0.3.2
         version: 0.3.2(effect@3.12.0)
@@ -24,18 +21,9 @@ importers:
       '@effect/vitest':
         specifier: ^0.16.0
         version: 0.16.0(effect@3.12.0)(vitest@2.1.8(@types/node@22.10.2)(happy-dom@16.0.1))
-      '@types/dom-navigation':
-        specifier: ^1.0.4
-        version: 1.0.4
       '@types/node':
         specifier: ^22.10.2
         version: 22.10.2
-      '@virtualstate/navigation':
-        specifier: 1.0.1-alpha.206
-        version: 1.0.1-alpha.206
-      happy-dom:
-        specifier: ^16.0.1
-        version: 16.0.1
       typescript:
         specifier: ^5.4.2
         version: 5.7.2
@@ -97,11 +85,6 @@ packages:
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [win32]
-
-  '@effect/platform@0.72.0':
-    resolution: {integrity: sha512-uHsW2hlo6AiIW3zpLAVAoNvJngS/JwCZBAM4RSRllm8JTgjjCraef78FJBDNnSXz+2a10Xzzx4qxVsP3s8EV5Q==}
-    peerDependencies:
-      effect: ^3.12.0
 
   '@effect/vitest@0.16.0':
     resolution: {integrity: sha512-caUXVs8Xsf07XUHRu1pOsHDiww7rE556+0PYZHIg+X6oL6gA9k2+d8ZFmutaW9hJoSQuy+vKyYAFM9/1rVSSAQ==}
@@ -350,20 +333,11 @@ packages:
     peerDependencies:
       effect: ^3.11.9
 
-  '@types/dom-navigation@1.0.4':
-    resolution: {integrity: sha512-s4pCS4jogEzXQsqoPZdLU+GA/5Wq+GoFsgiN2VGI8tw5I2Y/CftGJpC76iVhyoD7JTTEo+p0w+eh8SItMaxmgg==}
-
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
 
   '@types/node@22.10.2':
     resolution: {integrity: sha512-Xxr6BBRCAOQixvonOye19wnzyDiUtTeqldOOmj3CkeblonbccA12PFwlufvRdrpjXxqnmUaeiU5EOA+7s5diUQ==}
-
-  '@virtualstate/composite-key@1.0.0':
-    resolution: {integrity: sha512-5G3RT87X1w39UQyBvqQpTfsxK9FjoKlXfonvIY9esAHe9d0vOWVGtbElJppwJKWzh508Ja6gWn7W7dWHwj50Jw==}
-
-  '@virtualstate/navigation@1.0.1-alpha.206':
-    resolution: {integrity: sha512-DgwtJV2CA+e0A+jJdWKXi+HI/S9qw4HY0IkNwkJtmVfWFqn62f/7YKkBVCR/EYB9XvX5vDZsr4B/+OudB9VViw==}
 
   '@vitest/expect@2.1.8':
     resolution: {integrity: sha512-8ytZ/fFHq2g4PJVAtDX57mayemKgDR6X3Oa2Foro+EygiOJHUXhCqBAAKQYYajZpFoIfvBCF1j6R6IYRSIUFuw==}
@@ -445,9 +419,6 @@ packages:
     resolution: {integrity: sha512-h5+1OzzfCC3Ef7VbtKdcv7zsstUQwUDlYpUTvjeUsJAssPgLn7QzbboPtL5ro04Mq0rPOsMzl7q5hIbRs2wD1A==}
     engines: {node: '>=8.0.0'}
 
-  find-my-way-ts@0.1.5:
-    resolution: {integrity: sha512-4GOTMrpGQVzsCH2ruUn2vmwzV/02zF4q+ybhCIrw/Rkt3L8KWcycdC6aJMctJzwN4fXD4SD5F/4B9Sksh5rE0A==}
-
   fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
@@ -465,9 +436,6 @@ packages:
 
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
-
-  multipasta@0.2.5:
-    resolution: {integrity: sha512-c8eMDb1WwZcE02WVjHoOmUVk7fnKU/RmUcosHACglrWAuPQsEJv+E8430sXj6jNc1jHw0zrS16aCjQh4BcEb4A==}
 
   nanoid@3.3.8:
     resolution: {integrity: sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==}
@@ -646,12 +614,6 @@ snapshots:
   '@biomejs/cli-win32-x64@1.9.4':
     optional: true
 
-  '@effect/platform@0.72.0(effect@3.12.0)':
-    dependencies:
-      effect: 3.12.0
-      find-my-way-ts: 0.1.5
-      multipasta: 0.2.5
-
   '@effect/vitest@0.16.0(effect@3.12.0)(vitest@2.1.8(@types/node@22.10.2)(happy-dom@16.0.1))':
     dependencies:
       effect: 3.12.0
@@ -789,19 +751,11 @@ snapshots:
     dependencies:
       effect: 3.12.0
 
-  '@types/dom-navigation@1.0.4': {}
-
   '@types/estree@1.0.6': {}
 
   '@types/node@22.10.2':
     dependencies:
       undici-types: 6.20.0
-
-  '@virtualstate/composite-key@1.0.0': {}
-
-  '@virtualstate/navigation@1.0.1-alpha.206':
-    dependencies:
-      '@virtualstate/composite-key': 1.0.0
 
   '@vitest/expect@2.1.8':
     dependencies:
@@ -905,8 +859,6 @@ snapshots:
     dependencies:
       pure-rand: 6.1.0
 
-  find-my-way-ts@0.1.5: {}
-
   fsevents@2.3.3:
     optional: true
 
@@ -914,6 +866,7 @@ snapshots:
     dependencies:
       webidl-conversions: 7.0.0
       whatwg-mimetype: 3.0.0
+    optional: true
 
   loupe@3.1.2: {}
 
@@ -922,8 +875,6 @@ snapshots:
       '@jridgewell/sourcemap-codec': 1.5.0
 
   ms@2.1.3: {}
-
-  multipasta@0.2.5: {}
 
   nanoid@3.3.8: {}
 
@@ -1051,9 +1002,11 @@ snapshots:
       - supports-color
       - terser
 
-  webidl-conversions@7.0.0: {}
+  webidl-conversions@7.0.0:
+    optional: true
 
-  whatwg-mimetype@3.0.0: {}
+  whatwg-mimetype@3.0.0:
+    optional: true
 
   why-is-node-running@2.3.0:
     dependencies:

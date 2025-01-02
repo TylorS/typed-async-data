@@ -14,10 +14,7 @@
     "declaration": true,
     "sourceMap": true,
     "outDir": "dist",
-    "rootDir": "src",
-    "types": [
-      "dom-navigation"
-    ]
+    "rootDir": "src"
   },
   "include": [
     "src/**/*"

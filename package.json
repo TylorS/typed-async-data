@@ -1,7 +1,7 @@
 {
   "name": "@typed/async-data",
-  "version": "0.18.0",
-  "description": "History/Navigation API for Effect",
+  "version": "0.12.0",
+  "description": "Async Data for Effect",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -14,8 +14,8 @@
     "typecheck": "tsc --noEmit"
   },
   "keywords": [
-    "history",
-    "navigation",
+    "async",
+    "data",
     "effect",
     "typescript"
   ],
@@ -23,20 +23,17 @@
   "license": "MIT",
   "packageManager": "pnpm@9.12.2+sha512.22721b3a11f81661ae1ec68ce1a7b879425a1ca5b991c975b074ac220b187ce56c708fe5db69f4c962c989452eee76c82877f4ee80f474cebd61ee13461b6228",
   "dependencies": {
-    "@effect/platform": "^0.72.0",
     "@typed/lazy-ref": "^0.3.2",
     "effect": "^3.11.9"
   },
   "peerDependencies": {
+    "@typed/lazy-ref": "^0.3.2",
     "effect": "^3.11.9"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@effect/vitest": "^0.16.0",
-    "@types/dom-navigation": "^1.0.4",
     "@types/node": "^22.10.2",
-    "@virtualstate/navigation": "1.0.1-alpha.206",
-    "happy-dom": "^16.0.1",
     "typescript": "^5.4.2",
     "vitest": "^2.1.8"
   }

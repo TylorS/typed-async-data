@@ -1,17 +1,14 @@
-import {
-  Cause,
-  Effect,
-  Either,
-  Equal,
-  Equivalence,
-  Exit,
-  identity,
-  Option,
-  Schema,
-  SchemaAST,
-  Unify,
-} from 'effect'
-import { dual } from 'effect/Function'
+import * as Cause from 'effect/Cause'
+import * as Effect from 'effect/Effect'
+import * as Either from 'effect/Either'
+import * as Equal from 'effect/Equal'
+import * as Equivalence from 'effect/Equivalence'
+import * as Exit from 'effect/Exit'
+import { dual, identity } from 'effect/Function'
+import * as Option from 'effect/Option'
+import * as Schema from 'effect/Schema'
+import * as SchemaAST from 'effect/SchemaAST'
+import * as Unify from 'effect/Unify'
 import { Progress, type ProgressEncoded } from './Progress.js'
 import { DataEffect, LiteralWithDefault } from './_internal.js'
 

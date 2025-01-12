@@ -1,10 +1,12 @@
 import * as L from '@typed/lazy-ref'
-import { Effect, Layer } from 'effect'
+import * as Effect from 'effect/Effect'
 import { dual } from 'effect/Function'
+import * as Layer from 'effect/Layer'
 import type { Scope } from 'effect/Scope'
 import * as AsyncData from './AsyncData.js'
 
-export interface LazyRef<A, E = never, R = never> extends L.LazyRef<AsyncData.AsyncData<A, E>, never, R> {}
+export interface LazyRef<A, E = never, R = never>
+  extends L.LazyRef<AsyncData.AsyncData<A, E>, never, R> {}
 
 export type LazyRefOptions<A, E = never> = L.LazyRefOptions<AsyncData.AsyncData<A, E>> & {
   readonly drop?: number

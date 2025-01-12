@@ -1,14 +1,11 @@
-import {
-  Data,
-  type Effect,
-  Effectable,
-  Equal,
-  Hash,
-  Predicate,
-  Schema,
-  type SchemaAST,
-} from 'effect'
-import { constant } from 'effect/Function'
+import * as Data from 'effect/Data'
+import type * as Effect from 'effect/Effect'
+import * as Effectable from 'effect/Effectable'
+import * as Equal from 'effect/Equal'
+import * as Hash from 'effect/Hash'
+import * as Predicate from 'effect/Predicate'
+import * as Schema from 'effect/Schema'
+import type * as SchemaAST from 'effect/SchemaAST'
 import { structuralRegion } from 'effect/Utils'
 
 /**
